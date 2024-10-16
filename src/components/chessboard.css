@@ -7,17 +7,6 @@
     width: 800px;
 }
 
-.chessboard .tile {
-    width: 100px;
-    height: 100px;
-}
-.chessboard .black-tile {
-    background-color: #B88761;
-}
-.chessboard .white-tile {
-    background-color: #EDD6B0;
-}
-
 @media (max-width: 1000px) {
   .chessboard {
       display: grid;
@@ -27,10 +16,7 @@
       width: 560px;
       height: 560px;
   }
-  .chessboard .tile {
-    width: 70px;
-    height: 70px;
-  }
+ 
 }
 @media (max-width: 650px) {
   .chessboard {
@@ -41,14 +27,8 @@
       width: 480px;
       height: 480px;
   }
-  .chessboard .tile {
-    width: 60px;
-    height: 60px;
-  }
+
 }
 
-img{
-  height: 100px;
-  cursor: pointer;
-}
+
 

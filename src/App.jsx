@@ -1,4 +1,4 @@
-import { bb, br, bn, bq, bp, bk, wb, wk, wn, wp, wq, wr } from './assets'
+
 import './App.css'
 import { Chessboard } from './components/chessboard'
 
