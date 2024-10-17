@@ -26,9 +26,6 @@ pieces.push({image: bb, x: 5, y: 7})
 pieces.push({image: bk, x: 4, y: 7})
 pieces.push({image: bq, x: 3, y: 7})
 
-
-console.log(pieces)
-
 export const Chessboard = () => {
     let board = [];
 
@@ -42,7 +39,7 @@ export const Chessboard = () => {
           })
          
           const number = i + j + 2
-          board.push(<Tile number = {number} image = {image}/>)          
+          board.push(<Tile key = {`${j},${i}`}  number = {number} image = {image}/>)          
         }
     }
 

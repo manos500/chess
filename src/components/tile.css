@@ -11,21 +11,34 @@
     background-color: #EDD6B0;
 }
 
-.tile img{
-    width: 90px;
+.tile .chess-piece {
+   width: 100px;
+   height: 100px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100px;
 }
 
 @media (max-width: 1000px) {
   .tile {
     width: 70px;
     height: 70px;
+    }
+  .tile .chess-piece {
+    width: 70px;
+    height: 70px;
+    background-size: 70px;
 }
- 
 }
 @media (max-width: 650px) {
- .tile {
+  .tile {
     width: 60px;
     height: 60px;
+    }
+  .tile .chess-piece {
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
 }
 
 }
