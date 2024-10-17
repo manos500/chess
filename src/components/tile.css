@@ -19,6 +19,14 @@
    background-size: 100px;
 }
 
+.tile .chess-piece:hover {
+  cursor: grab;
+}
+
+.tile .chess-piece:active {
+  cursor: grabbing;
+}
+
 @media (max-width: 1000px) {
   .tile {
     width: 70px;
