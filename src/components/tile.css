@@ -11,6 +11,10 @@
     background-color: #EDD6B0;
 }
 
+.yellow-tile {
+  background-color: yellow;
+}
+
 .tile .chess-piece {
    width: 100px;
    height: 100px;
